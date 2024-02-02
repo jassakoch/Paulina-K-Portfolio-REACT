@@ -11,7 +11,7 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-//do i need this?
+//do i need this, maybe comment this out later***
 import './index.css';
 
 const router = createBrowserRouter ([
