@@ -8,33 +8,33 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import AboutMe from './pages/AboutMe';
-import Contact from './pages/Contact';
+//import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+// import Resume from './pages/Resume';
 //do i need this, maybe comment this out later***
 import './index.css';
 
 const router = createBrowserRouter ([
   {
     path: '/',
-    element: <App/>,
+    element: <App />,
     children: [
       {
         index: true,
-        element: <AboutMe/>,
+        element: <AboutMe />,
       },
       {
         path: '/Portfolio',
-        element: <Portfolio/>,
+        element: <Portfolio />,
       },
-     {
-      path:'/Contact',
-      element: <Contact/>,
-     },
-     {
-      path: '/Resume',
-      element: <Resume/>
-     },
+    //  {
+    //   path:'/Contact',
+    //   element: <Contact />,
+    //  },
+    //  {
+    //   path: '/Resume',
+    //   element: <Resume />
+    //  },
     ],
   },
 ]);

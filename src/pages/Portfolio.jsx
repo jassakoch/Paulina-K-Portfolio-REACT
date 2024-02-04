@@ -4,45 +4,45 @@ export default function Portfolio() {
 
     const projects = [
         {
-            title: "Mingo Dating App",
+            title: "Min-Go Dating App",
             link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
             github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: ""
+            image: "./min-go-png.png"
         },
 
         {
-            title: "Mingo Dating App",
-            link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
-            github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: //path to public folder
+            title: "LeftOver Lover",
+            link: "https://damirfm.github.io/leftover/",
+            github: "https://github.com/DamirFM/leftover?tab=readme-ov-file",
+           image: "./leftover_.png"
     },
 
         {
-            title: "Mingo Dating App",
-            link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
-            github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: //path to public folder
+            title: "SVG Logo Maker",
+            link: "https://drive.google.com/file/d/16mudgMov98j07hntR-rkLfIBdm5tsdA9/view",
+            github: "https://github.com/jassakoch/SVG--Logo-Maker?tab=readme-ov-file",
+            // image: //path to public folder
     },
 
         {
-            title: "Mingo Dating App",
-            link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
-            github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: //path to public folder
+            title: "Text Editor - PWA",
+            link: "https://jate-text-editor-z9be.onrender.com/",
+            github: "https://github.com/jassakoch/Text-Editor?tab=readme-ov-file",
+            // image: //path to public folder
     },
 
         {
-            title: "Mingo Dating App",
-            link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
-            github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: //path to public folder
+            title: "Social Network",
+            link: "https://app.screencastify.com/v3/watch/9klagsUYKJXQWHrUZ8Uc",
+            github: "https://github.com/jassakoch/Social-Network?tab=readme-ov-file",
+            // image: //path to public folder
     },
 
         {
-            title: "Mingo Dating App",
-            link: "https://min-go-dating-app-617b3295d223.herokuapp.com/",
-            github: "https://github.com/bahossdev/Min-Go-Dating-App",
-            image: //path to public folder
+            title: "Note Taker",
+            link: "https://note-taker-jassa-d1c823307af1.herokuapp.com/notes",
+            github: "https://github.com/jassakoch/Note-Taker?tab=readme-ov-file",
+            // image: //path to public folder
     }
 
 
