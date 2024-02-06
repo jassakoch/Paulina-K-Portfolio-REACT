@@ -14,6 +14,7 @@ This project is a single-page application (SPA) that showcases my portfolio as a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Installation
@@ -39,6 +40,8 @@ For a closer look, here's a screenshot of the portfolio:
 
 (https://github.com/jassakoch/Paulina-K-Portfolio-REACT/assets/140959169/c889f678-4863-4aaa-861b-94ec2ed5b84f)
 
+## Deployment
+ Here is the link to my deployed [application](https://aquamarine-rugelach-5aae48.netlify.app/)
 
 
 ## Credits
