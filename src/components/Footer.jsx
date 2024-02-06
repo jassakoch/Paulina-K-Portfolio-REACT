@@ -17,10 +17,11 @@ function Footer() {
 return (
 
     <footer>
-   <a href={github}><FaGithub /></a>
-   <a href={linkedin}><FaLinkedin /></a>
-   <a href= {stackOverFlow }> <FaStackOverflow /> </a>
- 
+        <div className="footer-container">
+   <a href={iconUrls.github}><FaGithub /></a>
+   <a href={ iconUrls.linkedin}><FaLinkedin /></a>
+   <a href= { iconUrls.stackOverFlow }> <FaStackOverflow /> </a>
+   </div>
         
     </footer>
 );

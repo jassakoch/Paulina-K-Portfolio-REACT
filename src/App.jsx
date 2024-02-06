@@ -12,10 +12,10 @@ function App() {
     <>
      
     <Header/>
-    <main>
+    <main className="main-container">
       <Outlet/>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </>
       
   );

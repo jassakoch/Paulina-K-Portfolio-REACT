@@ -7,8 +7,8 @@ export default function Resume() {
         <>
             <div>
                 <h2>Resume</h2>
-                <div>
-                    <img src={resumeImage} alt="resume" />
+                <div className="card">
+                    <img className="resume" src={resumeImage} alt="resume" />
                     <a href={resume} download>
                         <FaDownload /> Download
                     </a>

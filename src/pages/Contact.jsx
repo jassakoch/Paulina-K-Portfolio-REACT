@@ -61,9 +61,9 @@ function Contact() {
   };
 
   return (
-    <div className="container text-center">
+    <div className= "container text-center" >
       <h1>Contact Me</h1>
-      <form className="form" onSubmit={handleFormSubmit}>
+      <form className="form contact" onSubmit={handleFormSubmit}>
         <input
           value={name}
           name="name"
@@ -80,7 +80,7 @@ function Contact() {
           type="email" placeholder="Email"
         />
 
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}

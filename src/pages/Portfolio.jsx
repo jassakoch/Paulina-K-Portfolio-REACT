@@ -14,46 +14,49 @@ export default function Portfolio() {
             title: "LeftOver Lover",
             link: "https://damirfm.github.io/leftover/",
             github: "https://github.com/DamirFM/leftover?tab=readme-ov-file",
-           image: "./leftover_.png"
-    },
+            image: "./leftover_.png"
+        },
 
         {
             title: "SVG Logo Maker",
             link: "https://drive.google.com/file/d/16mudgMov98j07hntR-rkLfIBdm5tsdA9/view",
             github: "https://github.com/jassakoch/SVG--Logo-Maker?tab=readme-ov-file",
             image: "./SVG-Logo.png"
-    },
+        },
 
         {
             title: "Text Editor - PWA",
             link: "https://jate-text-editor-z9be.onrender.com/",
             github: "https://github.com/jassakoch/Text-Editor?tab=readme-ov-file",
             image: "./JATE-text-editor.png"
-    },
+        },
 
         {
             title: "Social Network",
             link: "https://app.screencastify.com/v3/watch/9klagsUYKJXQWHrUZ8Uc",
             github: "https://github.com/jassakoch/Social-Network?tab=readme-ov-file",
-            image:"./Social_Network.png"
-    },
+            image: "./Social_Network.png"
+        },
 
         {
             title: "Note Taker",
             link: "https://note-taker-jassa-d1c823307af1.herokuapp.com/notes",
             github: "https://github.com/jassakoch/Note-Taker?tab=readme-ov-file",
-            image:"./Note-Taker.png"
-    }
+            image: "./Note-Taker.png"
+        }
 
 
     ]
     return (
         <>
-            <h2>Portfolio</h2>
-            {/*put style into div below*/}
-            <div>
-                {projects.map((project, index) => <Project project={project} key={index} />)
-                }
+            <div className="container mt-5">
+                <h2 className="text-center mb-4">Portfolio</h2>
+                {/*put style into div below*/}
+                <div className="row">
+                    {projects.map((project, index) => (
+                        <Project project={project} key={index} />
+                    ))}
+                </div>
             </div>
         </>
     );

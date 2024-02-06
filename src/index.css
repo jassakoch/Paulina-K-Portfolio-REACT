@@ -3,10 +3,11 @@
   line-height: 1.5;
   font-weight: 400;
 
+
 /* Font color */
   color: #202A25;
   background-color: #ece7e1; /*Background color, khaki*/
-
+}
   body {
     background-color:#ece7e1; /*Background color, khaki*/;
     font-family: 'Playfair Display', serif;
@@ -15,20 +16,77 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
   }
-  
 
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+
+  
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+
+
+  .footer-container {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+  }
+
+  
   .profile-pic {
-    max-width: 150px;
+    max-width: 300px;
   margin-left: 20px;
     
   }
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+  .resume {
+    max-width: 100%;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+padding: 20px;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+  }
+
+  /* For AboutMe component, providing italic and bold for the words reality and ideas */
+  .italic-bold {
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  /* Styling for cards for projects on profile */
+
+
+  .project {
+    max-width: 100%;
+    margin-bottom: 8px;
+
+  }
+
+  .project:hover {
+    padding:15px;
+    
+  }
+
 
 a {
   font-weight: 500;
@@ -39,7 +97,10 @@ a:hover {
   color: #535bf2;
 }
 
-
+.GitIcon:hover {
+  cursor: pointer;
+  color: blue;
+}
 
 h1 {
   font-size: 3.2em;
