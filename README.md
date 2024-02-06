@@ -35,6 +35,7 @@ Upon loading the portfolio, you are presented with a sleek interface containing 
 - **Resume**: Displays a link to my downloadable resume and a list of my proficiencies.
 
 For a closer look, here's a screenshot of the portfolio:
+![AboutMe_Screencapture](https://github.com/jassakoch/Paulina-K-Portfolio-REACT/assets/140959169/26f15f18-49b1-439e-940a-47bf764953ab)
 
 (https://github.com/jassakoch/Paulina-K-Portfolio-REACT/assets/140959169/c889f678-4863-4aaa-861b-94ec2ed5b84f)
 
