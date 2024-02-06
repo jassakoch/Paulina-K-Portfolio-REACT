@@ -36,7 +36,8 @@ Upon loading the portfolio, you are presented with a sleek interface containing 
 
 For a closer look, here's a screenshot of the portfolio:
 
-[Screenshot 2024-02-05 at 10 20 10 PM](https://github.com/jassakoch/Paulina-K-Portfolio-REACT/assets/140959169/c763a0c9-8988-4724-b5e2-73369e58a537)
+[AboutMe_Screencapture](https://github.com/jassakoch/Paulina-K-Portfolio-REACT/assets/140959169/c889f678-4863-4aaa-861b-94ec2ed5b84f)
+
 
 
 ## Credits
