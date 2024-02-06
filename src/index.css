@@ -3,9 +3,25 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* Font color */
+  color: #202A25;
+  background-color: #ece7e1; /*Background color, khaki*/
+
+  body {
+    background-color:#ece7e1; /*Background color, khaki*/;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+
+  .profile-pic {
+    max-width: 150px;
+  margin-left: 20px;
+    
+  }
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,20 +32,14 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #202A25;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -57,8 +67,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #202A25;
+    background-color:#ece7e1;
   }
   a:hover {
     color: #747bff;

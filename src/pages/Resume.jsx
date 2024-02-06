@@ -1,5 +1,5 @@
 import resume from "/Resume_Full_Stack.pdf";
-import resumeImage from "/Rsume_image.png";
+import resumeImage from "/Resume_image.png";
 import { FaDownload } from "react-icons/fa";
 
 export default function Resume() {

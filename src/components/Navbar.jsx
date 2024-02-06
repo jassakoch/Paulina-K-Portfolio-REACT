@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 function Navbar () {
     const currentPage = useLocation().pathname;
     return (
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs transparent-navbar">
         <li className="nav-item">
           <Link
             to="/"
