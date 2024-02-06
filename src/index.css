@@ -2,8 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-
 /* Font color */
   color: #202A25;
   background-color: #ece7e1; /*Background color, khaki*/
@@ -25,8 +23,8 @@
     align-items: center;
     justify-content: center;
     background-color: azure;
+    z-index: 1000
 
-  
   }
 
   .contact {
@@ -45,7 +43,6 @@
     font-size: 30px;
   }
 
-  
   .profile-pic {
     max-width: 300px;
   margin-left: 20px;
